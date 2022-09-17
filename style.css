@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fefbe9;
+    overflow: hidden;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e1eedd;
+}
+
+nav .site_name {
+    font-style: italic;
+    margin: 1rem 3rem;
+    font-size: 50px;
+    color: #183a1d;
+    user-select: none;
+}
+
+nav .site_logo {
+    margin-left: 3rem;
+    height: 70px;
+    padding: 10px;
+    border-radius: 1rem;
+    fill: #183a1d;
+}
+
+nav .nav_links {
+    display: flex;
+    margin-right: 3rem;
+}
+
+nav .nav_links a {
+    padding: 0 2rem;
+    text-decoration: none;
+    font-size: 26px;
+    color: #183a1d;
+}
+
+nav .nav_links a:hover {
+    color: #f6c453;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.container_hero {
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+}
+
+.hero_container_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+.hero_container_left h1 {
+    font-size: 45px;
+    margin: 2rem 0;
+}
+
+.hero_container_left p {
+    margin: 2rem 0;
+    font-size: 19px;
+}
+
+.hero_container_left input {
+    color: #fff;
+    border: none;
+    background-color: #183a1d;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hero_container_left input:hover {
+    background-color: #237a30;
+}
+
+
+.hero_container_right img {
+    width: 45vw;
+    height: 45vh;
+    border-radius: 4rem;
+    margin: 2rem 2rem;
+    object-fit: cover;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+footer {
+    background-color: #e1eedd;
+    height: 30vh;
+}
+
+footer .footer_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer_links a {
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 15rem;
+    font-size: 1.3rem;
+    color: #183a1d;
+}
+
+footer .footer_links a:hover {
+    color: #f6c453;
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: underline;
+}
